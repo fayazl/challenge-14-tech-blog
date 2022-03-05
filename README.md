@@ -12,5 +12,5 @@
 
 <img src= "/public/techblog2.png">
 
-Github Repo: https://github.com/fayazl/tech-blog
+Github Repo: https://github.com/fayazl/challenge-14-tech-blog
 Heroku Link: https://safe-castle-13195.herokuapp.com/
