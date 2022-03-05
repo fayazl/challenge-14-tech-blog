@@ -8,7 +8,7 @@ const postdata = [
   },
   {
     title: 'ADSL',
-    description: 'Asymmetric digital subscriber line (ADSL) is a type of digital subscriber line (DSL) broadband technology that is used to connect to the Internet. It uses standard telephone lines to deliver high-speed data communications (up to 24 megabytes per second).',
+    description: 'Asymmetric digital subscriber line (ADSL) is a type of digital subscriber line (DSL) broadband technology that is used to connect to the Internet.',
     user_id: 2
   },
   {
@@ -33,7 +33,7 @@ const postdata = [
   },
   {
     title: 'Cache',
-    description: 'When you download (read) a web page, the data is "cached," meaning it is temporarily stored on your computer. The next time you want that page, instead of requesting the file from the web server, your web browser just accesses it from the cache, so the page loads quickly.',
+    description: 'When you download (read) a web page, the data is "cached," meaning it is temporarily stored on your computer.',
     user_id: 3
   }
 ];
