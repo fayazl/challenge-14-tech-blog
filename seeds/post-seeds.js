@@ -2,44 +2,39 @@ const { Post } = require('../models');
 
 const postdata = [
   {
-    title: 'Donec posuere metus vitae ipsum.',
-    description: 'https://buzzfeed.com/in/imperdiet/et/commodo/vulputate.png',
+    title: 'Adobe Acrobat Reader',
+    description: 'Acrobat Reader is software that allows you to view a PDF document (a document that can be seen but not changed). It can be downloaded free of charge from Adobe.',
     user_id: 1
   },
   {
-    title: 'Morbi non quam nec dui luctus rutrum.',
-    description: 'https://nasa.gov/donec.json',
+    title: 'ADSL',
+    description: 'Asymmetric digital subscriber line (ADSL) is a type of digital subscriber line (DSL) broadband technology that is used to connect to the Internet. It uses standard telephone lines to deliver high-speed data communications (up to 24 megabytes per second).',
     user_id: 2
   },
   {
-    title: 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.',
-    description: 'https://europa.eu/parturient/montes/nascetur/ridiculus/mus/etiam/vel.aspx',
+    title: 'Bandwidth',
+    description: 'Bandwidth refers to the maximum amount of data that can travel a communications path in a given time, usually measured in second',
     user_id: 1
   },
   {
-    title: 'Nunc purus.',
-    description: 'http://desdev.cn/enim/blandit/mi.jpg',
+    title: 'Bluetooth',
+    description: 'Bluetooth is a wireless communications technology intended to replace cables. It allows short-range connections between two or more Bluetooth-compatible devices such as mobile phones, tablets, headsets or medical equipment.',
     user_id: 4
   },
   {
-    title: 'Pellentesque eget nunc.',
-    description: 'http://google.ca/nam/nulla/integer.aspx',
+    title: 'Boolean operators',
+    description: 'Most search engines (e.g. Google) allow you to limit your search or make it more specific by using words such as "and", "or" and "not". These words are known as boolean operators because of their origin as terms in logic.',
     user_id: 5
   },
   {
-    title: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.',
-    description: 'https://stanford.edu/consequat.png',
+    title: 'Broadband',
+    description: 'Broadband is a type of communications technology whereby a single wire can carry more than one type of signal at once; for example, audio and video. Cable TV is one technology that uses broadband data transmission.',
     user_id: 5
   },
   {
-    title: 'In hac habitasse platea dictumst.',
-    description: 'http://edublogs.org/non/ligula/pellentesque.js',
+    title: 'Cache',
+    description: 'When you download (read) a web page, the data is "cached," meaning it is temporarily stored on your computer. The next time you want that page, instead of requesting the file from the web server, your web browser just accesses it from the cache, so the page loads quickly.',
     user_id: 3
-  },
-  {
-    title: 'Morbi non quam nec dui luctus rutrum.',
-    description: 'http://ucla.edu/consequat/nulla.html',
-    user_id: 1
   }
 ];
 
