@@ -10,6 +10,7 @@
 
 ## By minially adding some bootstrap, we ahve a functioning application.
 
+<img src= "/public/techblog2.png">
 
 Github Repo: https://github.com/fayazl/tech-blog
-Heroku Link
+Heroku Link: https://safe-castle-13195.herokuapp.com/
