@@ -1,36 +1,37 @@
-<article>
+<center><article>
   <a href="/dashboard"> &larr; Back to dashboard</a>
   <h2>
     Edit Post
   </h2>
-  <form class="edit-post-form">
+<form class="edit-post-form comment form col-3">
     <div>
       <label name="post-title">Title</label>
-      <input name="post-title" type="text" value="{{post.title}}" />
+      <input name="post-title" type="text" class="form-control mt-2" value="{{post.title}}" />
     </div>
     <div>
       <label name="description">Description</label>
-      <textarea id='description'>{{post.description}}</textarea>
+      <textarea class="form-control mt-2" id='description'>{{post.description}}</textarea>
     </div>
     <div>
       {{post.vote_count}} {{format_plural "point" post.vote_count}} by you on {{format_date post.created_at}}
       |
       <a href="/post/{{post.id}}">{{post.comments.length}} {{format_plural "comment" post.comments.length}}</a>
     </div>
-    <button type="submit">Save post</button>
-    <button type="button" class="delete-post-btn">Delete post</button>
+    <button type="submit" class="save-post-btn btn btn-primary mt-2 mb-3">Save post</button>
+    <button type="button" class="delete-post-btn btn btn-primary mt-2 mb-3">Delete post</button>
   </form>
 </article>
 
-<form class="comment-form">
+<form class="comment-form col-3">
   <div>
-    <textarea name="comment-body"></textarea>
+    <textarea name="comment-body" class="form-control mt-2"></textarea>
   </div>
 
   <div>
-    <button type="submit">add comment</button>
+    <button type="submit" class="delete-post-btn btn btn-primary mt-2 mb-3">Add comment</button>
   </div>
 </form>
+</center>
 
 {{> comments post.comments}}
 
